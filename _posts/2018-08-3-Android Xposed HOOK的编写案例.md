@@ -29,19 +29,19 @@ tag: Android 逆向
 
 1. 用Android Studio 新建一个项目
 
-   ![](http://p9sepa44i.bkt.clouddn.com/18-8-3/77823384.jpg)
+   ![](http://studyimg.zyzling.top/18-8-3/77823384.jpg)
 
 2. 下一步
 
-   ![](http://p9sepa44i.bkt.clouddn.com/18-8-3/37576981.jpg)
+   ![](http://studyimg.zyzling.top/18-8-3/37576981.jpg)
 
 3. 选择Add No activity
 
-   ![](http://p9sepa44i.bkt.clouddn.com/18-8-3/51893591.jpg)
+   ![](http://studyimg.zyzling.top/18-8-3/51893591.jpg)
 
 4. 把视图切换到project
 
-   ![](http://p9sepa44i.bkt.clouddn.com/18-8-3/85571920.jpg)
+   ![](http://studyimg.zyzling.top/18-8-3/85571920.jpg)
 
 5. 在app下面新建个lib文件夹，放入Xposed API的jar包(api-82.jar)。然后选中jar包，右键->add as Library
 
@@ -107,7 +107,7 @@ tag: Android 逆向
 
 10. 到此，整个的目录结构如下（修改过的地方使用红框框起来了）：
 
-   ![](http://p9sepa44i.bkt.clouddn.com/18-8-3/80173122.jpg)
+   ![](http://studyimg.zyzling.top/18-8-3/80173122.jpg)
 
 11. 接下来就是进行打包签名了。然后在手机上安装。注意：新模块安装后，需要在Xposed框架中勾选，并且重启手机~
 
